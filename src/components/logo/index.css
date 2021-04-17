@@ -1,0 +1,68 @@
+.logo-container {
+  font-family: "Sora", sans-serif;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+}
+
+.logo-m {
+  text-decoration: none;
+  font-weight: 100;
+  margin-top: auto;
+}
+.logo-e {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo-e {
+    font-size: 3vh;
+  }
+  .logo-m {
+    font-size: 2vh;
+
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .logo-e {
+    font-size: 3vh;
+  }
+  .logo-m {
+    font-size: 2vh;
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .logo-e {
+    font-size: 3vh;
+  }
+  .logo-m {
+    font-size: 2vh;
+    margin-bottom: 28px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .logo-e {
+    font-size: 3vh;
+  }
+  .logo-m {
+    font-size: 2vh;
+    margin-bottom: 28px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .logo-e {
+    font-size: 3vh;
+  }
+  .logo-m {
+    font-size: 2vh;
+    margin-bottom: 28px;
+  }
+}

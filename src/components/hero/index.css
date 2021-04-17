@@ -1,0 +1,8 @@
+.hero {
+  height: 60vh;
+}
+@media (max-width: 670px) {
+  .hero {
+    height: 40vh;
+  }
+}

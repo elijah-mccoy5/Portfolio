@@ -1,0 +1,35 @@
+.iphone {
+  /* transform: translate(-350px, 30%) rotate(0.5turn); */
+  width: 55vw;
+  transform: scale(1) translate(-10%, 5%);
+}
+
+@media only screen and (max-width: 600px) {
+  .iphone {
+    width: 110vw;
+    transform: scale(1) translate(5%);
+  }
+}
+@media only screen and (min-width: 600px) {
+  .iphone {
+    width: 80vw;
+    transform: scale(1) translate(5%);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .iphone {
+    width: 55vw;
+    transform: scale(1) translate(5%);
+  }
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1200px) {
+  .iphone {
+    width: 45vw;
+    transform: scale(1) translate(5%);
+  }
+}
